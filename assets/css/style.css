@@ -1,0 +1,98 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto/Roboto-Black.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #10131d;
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: light;
+    
+}
+.liSec{
+    padding: 5px 3px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+nav li{
+    margin-left: 10px;
+    z-index: 1;
+}
+nav li a{
+    color: #bebebe;
+    text-decoration: none;
+    transition: color 1.2s;
+}
+nav li a:hover{
+    color: #6a6a6d;
+}
+nav video{
+    width: 100vw;
+    height: auto;
+    position: relative;
+    top: -10px;
+}
+.intro{
+    position: absolute;
+    top: 30%;
+    width: 80%;
+    height: 50vh;
+    text-align: center;
+    color: #3575a4;
+}
+.intro h1{
+    font-weight: bolder;
+    font-size: 32px;
+    
+}
+.intro span{
+    color: rgba(254,208,64,255);
+    font-weight: lighter;
+    font-size: 16;
+}
+.about{
+    position: absolute;
+    top: 50%;
+    width: 90%;
+    text-align: center;
+
+}
+.about h2{
+    color: #fe4b01;
+    margin-bottom: 10px;
+}
+.paragraph{
+    background-color: #212122;
+    padding: 15px;
+    border-radius: 15px;
+    color: whitesmoke;
+    word-spacing: 2.6px;
+}
+.skills{
+    position: absolute;
+    top: 100%;
+    width: 90%;
+    text-align: center;
+}
+.skills h2{
+    color: #2B8C67;
+    margin-bottom: 15px;
+}

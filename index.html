@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portfólio</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script defer src="assets/js/radar.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav>
+        <section class="liSec">
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Habilidades</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </section>
+        <video loop autoplay muted width="100vw" height="auto">
+            <source src="assets/video/Background001.mp4" type="video/mp4">
+            Seu navegador não suporta o <code>Vídeo!</code>
+        </video>
+        <!-- Texto em cima do vídeo em telas maiores!!! -->
+    </nav>
+    <section class="intro">
+        <h1>Bem-vindo</h1>
+        <p>Ao meu <span>Portfólio!</span></p>
+    </section>
+    <section class="about">
+        <h2>Quem sou eu?</h2>
+        <p class="paragraph">Olá! Meu nome é Pietro d'avila, tenho 15 anos mas 4 anos de aprendizado na área de T.I, desde pentesting até desenvolvimento mobile de software e web. Atualmente eu moro na cidade de São Paulo e curso ensino médio Técnico de desenvolvimento de sistemas na ETEC (escola técnica estadual).</p>
+    </section>
+    <section class="skills">
+        <h2>O que posso fazer?</h2>
+        <p class="paragraph">Comecei a estudar programação durante a pandemia de 2019, no começo eu errava muito e quase não sabia o que fazer, mas depois de um tempo eu me adaptei e comecei a fazer coisas que eu nunca imaginaria que eu conseguiria!</p>
+    </section>
+    <div style="position: relative; width: 80%; height: auto; margin: 0 auto;">
+        <canvas class="skillRadar" id="skillRadar" width="400" height="400"></canvas>
+    </div>
+    
+</body>
+</html>
